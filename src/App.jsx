@@ -1,10 +1,10 @@
 import React from 'react';
-import OnInput from './layout/Components/onInput';
+import Layout from './layout/Layout';
 
 function App() {
   return (
     <>
-      <OnInput/>
+      <Layout/>
     </>
       
   );
