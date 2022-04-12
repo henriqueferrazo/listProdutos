@@ -7,6 +7,7 @@
      Sumário
       <p align="center">
   <a href="#projeto-e-espectativas"> Projeto e Espectativas </a> |
+  <a href="#erro"> Erro </a> |
   <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
   <a href="#rodando-o-projeto"> Rodando o projeto </a> |
   <a href="#tecnologias-utilizadas"> Tecnologias utilizadas </a>      
@@ -23,7 +24,8 @@ O objetivo do projeto é criar um input capaz de encontrar produtos disponiveis 
 
 <img align="center" src="./imgReadme/layout.png">
 
-**Durante o desenvolvimento a [API](https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook) parou de funcionar e apresentou o status 500 como demonstrado na imagem abaixo. Se ainda estiver com este problema não será possivel testar o projeto porém a imagem acima foi tirada antes do problema e ela demonstra o projeto funcionando normalmente.
+# Erro
+*Durante o desenvolvimento a [API](https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook) parou de funcionar e apresentou o status 500 como demonstrado na imagem abaixo.* Se ainda estiver com este problema não será possivel testar o projeto porém a imagem acima foi tirada antes do problema e ela demonstra o projeto funcionando normalmente.
 
 <img align='center' src="./imgReadme/printDoErro.png">
 
