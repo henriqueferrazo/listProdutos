@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
+    <img src="./readme/sacolas.png" alt="Logo" width="150">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Lista de Produtos</h3>
+ <br />
+  <p align="center">
+     Sumário
+      <p align="center">
+  <a href="#projeto-e-espectativas"> Projeto e Espectativas </a> |
+  <a href="#conhecimentos-praticados"> Conhecimentos praticados </a> |
+  <a href="#rodando-o-projeto"> Rodando o projeto </a> |
+  <a href="#tecnologias-utilizadas"> Tecnologias utilizadas </a>      
+       <br />
+    <br />
+    <h1 align="center">
+ </h1>
+  </p>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Projeto e Espectativas
+O objetivo do projeto é criar um input capaz de encontrar produtos disponiveis na [API](https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook) disponibilizada pela [Calindra](https://calindra.tech/), utilizando palavras chaves e um botão de buscar retornando uma lista de produtos com descrição de ***nome, score e visualizão por click***
 
-### `npm start`
+<img align="center" src="./imgReadme/layout.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Conhecimentos Praticados
+✔ ReactJS<br>
+✔ Chakra <br>
+✔ Axios <br>
+✔ npm <br>
+ 
+# Rodando o projeto:
 
-### `npm test`
+### Pré-requisitos:
+Antes de começar, você precisará instalar em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/)<br> Além disso, é aconselhável ter um editor como o [VSCode](https://code.visualstudio.com/) para trabalhar com o código!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalando e rodando o projeto:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone este repositório
+$ git clone https://github.com/henriqueferrazo/listProdutos.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acesse a pasta do projeto no terminal
+$ cd my-teste
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências do projeto
+$ npm install
 
-### `npm run eject`
+# Inicie o servidor da aplicação
+$ npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Tecnologia utilizada: 
+<p align="center">
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="40"/></a>
+</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+**De p>senvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
