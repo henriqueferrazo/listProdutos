@@ -6,31 +6,31 @@ import { Spinner, Input, Button, Flex } from '@chakra-ui/react'
 
 
 function Product() {
-    const [item, setItem] = useState()
+    const [butt, setButt] = useState("")
     const [text, setText] = useState("")
     const [produto, setProduto] = useState([])
 
-    function searchProduct(event) {
+    function addProduct(event) {
         event.preventDefault()
-        setItem([...item, produto])
-        setText(text)
+        setButt(produto)
     }
-   
+
     function hadleChange(event) {
         let texteValue = event.target.value;
         setText(texteValue)
     }
 
-    
+
     useEffect(() => {
         api.get(`/autocomplete?content=${text}&source=nanook`)
-        .then((res) => setProduto(res.data.products))
-    })
+            .then((res) => setProduto(res.data.products))
+
+    }, [butt])
     return (
         <>
             <Flex m="20px">
-                <Input placeholder='Produto ...' size='lg' onChange={hadleChange} value={text} />
-                <Button ml='10px' size='lg' colorScheme='teal' variant='solid' onClick={searchProduct}>Buscar</Button>
+                <Input placeholder='Produto ...' size='lg' type='text' onChange={hadleChange} value={text} />
+                <Button ml='10px' size='lg' colorScheme='teal' variant='solid' onClick={addProduct}>Buscar</Button>
             </Flex>
             {
                 produto === undefined ?
