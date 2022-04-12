@@ -1,21 +1,18 @@
 import React from "react";
 import { chakra, Box, Flex, Center } from "@chakra-ui/react";
-import { useColorModeValue } from "@chakra-ui/react";
+
 
 function Card({ produtos }) {
-    const [color, setColor] = useColorModeValue()
-    
-    function colorTheme(value){
-        let valueColor = setColor(value)
-    }
-    
+
+
     return (
         <>
             {
                 produtos.map((produto, index) => {
                     return (
-                        <Center key={index}>
+                        <Center >
                             <Flex
+                                key={index}
                                 p={50}
                                 w="full"
                                 alignItems="center"
@@ -24,7 +21,7 @@ function Card({ produtos }) {
                                 <Flex
                                     maxW="md"
                                     mx="auto"
-                                    bg={colorTheme("white", "gray.700")}
+                                    bg="gray"
                                     shadow="lg"
                                     rounded="lg"
                                     overflow="hidden"
@@ -34,19 +31,19 @@ function Card({ produtos }) {
                                         <chakra.h1
                                             fontSize="2xl"
                                             fontWeight="bold"
-                                            color={colorTheme("gray.800", "white")}
+                                            color="black"
                                         >
-                                            {produto.name}
+                                            {produto.name}{produto.terme}
                                         </chakra.h1>
 
                                         <Flex mt={3} alignItems="center" justifyContent="space-between">
                                             <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
-                                                Score: {produto.score}
+                                                Score: {produto._meta.score}
                                             </chakra.h1>
                                         </Flex>
                                         <Flex mt={3} alignItems="center" justifyContent="space-between">
                                             <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
-                                                Visitada: {produto.visitsClickCount}
+                                                Numero de visitas: {produto._meta.visitsClickCount}
                                             </chakra.h1>
                                         </Flex>
                                     </Box>
