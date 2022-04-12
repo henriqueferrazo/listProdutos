@@ -1,6 +1,5 @@
 <br />
 <p align="center">
-    <img src="./readme/sacolas.png" alt="Logo" width="150">
 
   <h3 align="center">Lista de Produtos</h3>
  <br />
@@ -24,6 +23,9 @@ O objetivo do projeto é criar um input capaz de encontrar produtos disponiveis 
 
 <img align="center" src="./imgReadme/layout.png">
 
+**Durante o desenvolvimento a [API](https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook) parou de funcionar e apresentou o status 500 como demonstrado na imagem abaixo. Se ainda estiver com este problema não será possivel testar o projeto porém a imagem acima foi tirada antes do problema e ela demonstra o projeto funcionando normalmente.
+
+<img align='center' src="./imgReadme/printDoErro.png">
 
 # Conhecimentos Praticados
 ✔ ReactJS<br>
@@ -64,4 +66,4 @@ $ npm start
 
 
 ---
-**De p>senvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
+**Desenvolvido por <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/"> Henrique Ferraz </a>.**
