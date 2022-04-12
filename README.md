@@ -19,7 +19,7 @@
 </p>
 
 
-# Projeto e Espectativa
+# Projeto e Expectativa
 O objetivo do projeto é criar um input capaz de encontrar produtos disponiveis na [API](https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook) disponibilizada pela [Calindra](https://calindra.tech/), utilizando palavras chaves e um botão de buscar retornando uma lista de produtos com descrição de ***nome, score e visualizão por click***
 
 <img align="center" src="./imgReadme/layout.png">
